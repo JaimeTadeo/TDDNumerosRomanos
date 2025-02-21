@@ -1,8 +1,9 @@
 export default function numeros(num) {
-    if (num === 1) {
-        return "I";
-    } else if (num === 2) {
-        return "II";
+    let resultado = "";
+    for (let i = 0; i < num; i++) {
+        resultado += "I";
     }
-    return "";
+    return resultado;
 }
+
+
