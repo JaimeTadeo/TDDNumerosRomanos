@@ -48,4 +48,16 @@ describe("Numeros Romanos", () => {
     it("debería convertir 90 a XC", () => {
         expect(numeros(90)).toEqual("XC");
     });
+
+    it("debería convertir 100 a C", () => {
+        expect(numeros(100)).toEqual("C");
+    });
+
+    it("debería convertir 400 a CD", () => {
+        expect(numeros(400)).toEqual("CD");
+    });
+
+    it("debería convertir 500 a D", () => {
+        expect(numeros(500)).toEqual("D");
+    });
 });
