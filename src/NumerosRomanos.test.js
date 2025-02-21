@@ -68,4 +68,8 @@ describe("Numeros Romanos", () => {
     it("debería convertir 1000 a M", () => {
         expect(numeros(1000)).toEqual("M");
     });
+
+    it("debería convertir lo que sea", () => {
+        expect(numeros(1998)).toEqual("MCMXCVIII");
+    });
 });
