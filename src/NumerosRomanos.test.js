@@ -20,4 +20,8 @@ describe("Numeros Romanos", () => {
     it("debería convertir 5 a V", () => {
         expect(numeros(5)).toEqual("V");
     });
+
+    it("debería convertir 6 a VI", () => {
+        expect(numeros(6)).toEqual("VI");
+    });
 });
