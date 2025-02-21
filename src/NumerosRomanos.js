@@ -1,5 +1,8 @@
 export default function numeros(num) {
     const romanos = [
+        { value: 100, symbol: "C" },
+        { value: 90, symbol: "XC" },
+        { value: 50, symbol: "L" },
         { value: 40, symbol: "XL" },
         { value: 10, symbol: "X" },
         { value: 9, symbol: "IX" },

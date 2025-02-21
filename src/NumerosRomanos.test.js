@@ -40,4 +40,12 @@ describe("Numeros Romanos", () => {
     it("debería convertir 40 a XL", () => {
         expect(numeros(40)).toEqual("XL");
     });
+
+    it("debería convertir 50 a L", () => {
+        expect(numeros(50)).toEqual("L");
+    });
+
+    it("debería convertir 90 a XC", () => {
+        expect(numeros(90)).toEqual("XC");
+    });
 });
