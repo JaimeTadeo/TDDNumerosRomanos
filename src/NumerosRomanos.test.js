@@ -24,4 +24,12 @@ describe("Numeros Romanos", () => {
     it("debería convertir 6 a VI", () => {
         expect(numeros(6)).toEqual("VI");
     });
+
+    it("debería convertir 9 a IX", () => {
+        expect(numeros(9)).toEqual("IX");
+    });
+
+    it("debería convertir 10 a X", () => {
+        expect(numeros(10)).toEqual("X");
+    });
 });
