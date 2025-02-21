@@ -1,12 +1,16 @@
 export default function numeros(num) {
+    const romanos = [
+        { value: 4, symbol: "IV" },
+        { value: 1, symbol: "I" }
+    ];
+
     let resultado = "";
 
-    if (num === 4) {
-        return "IV";
-    }
-
-    for (let i = 0; i < num; i++) {
-        resultado += "I";
+    for (const { value, symbol } of romanos) {
+        while (num >= value) {
+            resultado += symbol;
+            num -= value;
+        }
     }
 
     return resultado;
