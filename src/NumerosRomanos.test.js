@@ -5,7 +5,7 @@ describe("Numeros Romanos", () => {
         expect(numeros(1)).toEqual("I");
     });
 
-    it("debería convertir 2 a II", () => {
-        expect(numeros(2)).toEqual("II");
+    it("debería convertir 4 a IV", () => {
+        expect(numeros(4)).toEqual("IV");
     });
 });
