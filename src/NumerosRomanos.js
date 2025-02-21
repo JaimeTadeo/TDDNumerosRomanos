@@ -1,5 +1,7 @@
 export default function numeros(num) {
     const romanos = [
+        { value: 1000, symbol: "M" },
+        { value: 900, symbol: "CM" },
         { value: 500, symbol: "D" },
         { value: 400, symbol: "CD" },
         { value: 100, symbol: "C" },

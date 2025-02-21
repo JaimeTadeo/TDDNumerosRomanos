@@ -60,4 +60,12 @@ describe("Numeros Romanos", () => {
     it("debería convertir 500 a D", () => {
         expect(numeros(500)).toEqual("D");
     });
+
+    it("debería convertir 900 a CM", () => {
+        expect(numeros(900)).toEqual("CM");
+    });
+
+    it("debería convertir 1000 a M", () => {
+        expect(numeros(1000)).toEqual("M");
+    });
 });
