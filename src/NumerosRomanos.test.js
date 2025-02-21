@@ -32,4 +32,12 @@ describe("Numeros Romanos", () => {
     it("debería convertir 10 a X", () => {
         expect(numeros(10)).toEqual("X");
     });
+
+    it("debería convertir 20 a XX", () => {
+        expect(numeros(20)).toEqual("XX");
+    });
+
+    it("debería convertir 40 a XL", () => {
+        expect(numeros(40)).toEqual("XL");
+    });
 });
